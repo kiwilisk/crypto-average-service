@@ -1,0 +1,10 @@
+workspace:
+  base: /go
+  path: src/github.com/kiwilisk/crypto-average-service
+
+pipeline:
+  build:
+    image: golang
+    commands:
+      - go build
+      - go test
