@@ -50,5 +50,5 @@ func mapToAssets(cmcResponse []coinMarketCapAsset) []Asset {
 			cmcAsset.PriceInBtc,
 		}
 	}
-	return nil
+	return assets
 }
